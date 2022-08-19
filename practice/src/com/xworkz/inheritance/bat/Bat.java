@@ -20,7 +20,7 @@ public class Bat extends Wood {
 
 	public void torisu() {
 
-		System.out.println("Type :" + type);
+		System.out.println("Type :" + type); 	
 		System.out.println("Name :" + name);
 		System.out.println("AvgWeight :" + avgWeight);
 		System.out.println("AvgLength :" + avgLength);
