@@ -16,7 +16,7 @@ public class AutomobileRider {
 		System.out.println(khg);
 		System.out.println("<----------------------------->");
 
-		HondaAutomoblile honda = new HondaAutomoblile("2 Wheeler", "actica");
+		HondaAutomoblile honda = new HondaAutomoblile("2 Wheeler", "activa");
 		honda.setOpentime();
 		honda.setClosetime();
 		honda.torisu();
