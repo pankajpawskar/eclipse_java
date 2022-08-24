@@ -22,7 +22,7 @@ public class AutomobileRider {
 		honda.torisu();
 		System.out.println("<----------------------------->");
 
-		TataAutomobile tata = new TataAutomobile("4 Wheeler", "kIA");
+		TataAutomobile tata = new TataAutomobile("4 Wheeler", "SAFARI");
 		tata.torisu();
 
 	}
