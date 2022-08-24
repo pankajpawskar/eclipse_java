@@ -10,13 +10,13 @@ public class AutomobileRider {
 
 	public static void main(String[] args) {
 
-		Automobile autom = new Automobile();
-		autom.setBrand("Marti Suzuki");
-		double khg = autom.sellAccesories("Chains packet");
+		Automobile automobile = new Automobile();
+		automobile.setBrand("Marti Suzuki");
+		double khg = automobile.sellAccesories("Chains packet");
 		System.out.println(khg);
 		System.out.println("<----------------------------->");
 
-		HondaAutomoblile honda = new HondaAutomoblile("2 Wheeler", "Pulser");
+		HondaAutomoblile honda = new HondaAutomoblile("2 Wheeler", "actica");
 		honda.setOpentime();
 		honda.setClosetime();
 		honda.torisu();
